@@ -1,0 +1,52 @@
+/*
+  下拉框
+*/
+.el-dropdown {
+  font-size: 0 !important;
+}
+
+.el-dropdown-menu__item {
+  list-style: none;
+  line-height: 36px;
+  padding: 0 20px;
+  margin: 0;
+  font-size: 14px;
+  color: #606266 !important;
+  cursor: pointer;
+  outline: 0;
+}
+
+/*
+  折叠框
+*/
+.el-collapse {
+  border: 0 !important;
+}
+
+.el-collapse-item__header {
+  font-size: 1rem !important;
+  line-height: 2.5rem !important;
+  height: inherit !important;
+  background-color: transparent !important;
+  border: 0 !important;
+  color: #e3f2e1 !important;
+}
+
+.el-collapse-item__content {
+  font-size: 1rem !important;
+  line-height: inherit !important;
+  height: inherit !important;
+  padding-bottom: 0 !important;
+}
+
+.el-collapse-item__wrap {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+
+/*
+  分页选择器
+*/
+.el-pagination {
+  padding: 0 !important;
+}

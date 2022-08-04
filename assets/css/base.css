@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'QTFuture BT';
+  src: url('../fonts/FuturaBT_Light.woff.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'QTFuture BT','Microsoft YaHei';
+  font-size: 100%;
+  box-sizing: border-box;
+  line-height: inherit;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+html {
+  font-size: 12px;
+}
+
+button::after {
+  border: 0;
+}
+
+.__nuxt-error-page {
+  background-color: transparent !important;
+}
+
+.__nuxt-error-page .error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
